@@ -37,6 +37,12 @@ p + h1 {
 	margin-top: 1em;
 }
 
+/* header */
+.header p {
+	margin-bottom: 0;
+	padding: 0;
+}
+
 /* navigation */
 .navigation {
 	padding: 1em 2em;

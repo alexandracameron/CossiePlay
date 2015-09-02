@@ -56,13 +56,16 @@ p + h1 {
 	
 .navigation li {
 	display: inline;
-	margin-right: 4em;
-	margin-left: 4em;
+	margin-right: 3.6em;
+	margin-left: 3.8em;
 }
 
 .navigation li a {
 	color: #ffffff;
 	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	
 }
 
 .navigation li a:hover {

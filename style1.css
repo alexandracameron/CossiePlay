@@ -1,15 +1,100 @@
-/* type selectors */
+/* content */
+body {
+	background-color: #b66767;
+}
 
-/* class selectors */
+.container { width: 1000px;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-family: arial, helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-/* ID selectors */
+h2,h3,h4,h5,h6 {
+	color: #792424;
+}
+	
+#bodycontent {
+	margin: 1em 2em;
+}
 
-/* universal selectors */
+/* header */
+h1 {
+	color: #792424;
+	font-family: "trebuchet MS", arial, helvetica, sans-serif;
+	font-size: 50px;
+}
 
-/* descendant selectors */
+.header p {
+	font-style: italic;
+	color: #792424;
+}
 
-/* child selectors */
 
-/* adjacent sibling selectors */
+/* navigation */
+.navigation {
+	padding: 1em 2em;
+	background-color: #792424;
+}
 
-/* link pseudo-class selectors */
+.navigation ul {
+	margin: 0;
+	padding: 0;
+}
+	
+.navigation li {
+	display: inline;
+	margin-right: 1em;
+}
+
+.navigation li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/* links */
+a:link { color: #bf1e23; }
+a:visited { color: #21789c }
+a:focus { color: #b66767 }
+a:hover { color: #b66767 }
+a:active { color: #792424 }
+
+strong a {
+	font-size: 24px;
+}
+
+#examples {
+	text-align: center;
+}
+
+/* pictures */
+#gallery {
+	text-align: center;
+}
+#sewing {
+	text-align: center;
+}
+
+#homephoto {
+	text-align: center;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.costume {
+	text-align: center;
+}
+
+
+/* footer */
+#footer {
+	padding: 0.5em;
+	color: #ffffff;
+	background-color: #792424;
+	text-align: center;
+}

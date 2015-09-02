@@ -12,26 +12,30 @@ body {
 	margin-right: auto;
 }
 
-h2,h3,h4,h5,h6 {
-	color: #792424;
-}
-	
 #bodycontent {
 	margin: 1em 2em;
 }
 
-/* header */
+p {
+	margin-top: 0.5em;
+}
+
+/* headings */
 h1 {
 	color: #792424;
 	font-family: "trebuchet MS", arial, helvetica, sans-serif;
-	font-size: 50px;
+	margin: 0;
+	padding: 0;
 }
 
-.header p {
-	font-style: italic;
+h2,h3,h4,h5,h6 {
 	color: #792424;
+	margin: 0;
 }
 
+p + h1 {
+	margin-top: 1em;
+}
 
 /* navigation */
 .navigation {
@@ -54,6 +58,9 @@ h1 {
 	text-decoration: none;
 }
 
+.navigation li a:hover {
+	color: #b66767;
+}
 
 /* links */
 a:link { color: #bf1e23; }
@@ -88,8 +95,14 @@ strong a {
 
 .costume {
 	text-align: center;
+	margin-top: 0;
+	margin-bottom: 2.5em;
 }
 
+.costumecontent {
+	margin: 0;
+	text-align: center;
+}
 
 /* footer */
 #footer {

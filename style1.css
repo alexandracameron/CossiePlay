@@ -69,7 +69,7 @@ p + h1 {
 
 /* links */
 a:link { color: #bf1e23; }
-a:visited { color: #21789c }
+a:visited { color: #bf1e23; }
 a:focus { color: #b66767 }
 a:hover { color: #b66767 }
 a:active { color: #792424 }

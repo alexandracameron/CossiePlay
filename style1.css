@@ -3,7 +3,8 @@ body {
 	background-color: #b66767;
 }
 
-.container { width: 1000px;
+.container { 
+	width: 1000px;
 	background-color: #ffffff;
 	margin: 0;
 	padding: 0;

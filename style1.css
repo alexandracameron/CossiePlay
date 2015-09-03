@@ -114,6 +114,10 @@ strong a {
 	text-align: center;
 }
 
+.boromir {
+	float: right;
+}
+
 /* footer */
 #footer {
 	padding: 0.5em;
